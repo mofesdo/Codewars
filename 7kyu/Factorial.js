@@ -8,8 +8,8 @@ More details about factorial can be found here.
 function factorial(n)
 {
   // Calculate the factorial here
-  if(n == 1){
-    return n;
+  if(n == 0){
+    return 1;
   }
   else{
     return n * factorial(n-1);
