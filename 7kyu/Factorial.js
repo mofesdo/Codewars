@@ -8,6 +8,9 @@ More details about factorial can be found here.
 function factorial(n)
 {
   // Calculate the factorial here
+  if(n < 0 || n > 12){
+    throw RangeError;
+  }
   if(n == 0){
     return 1;
   }
