@@ -17,4 +17,5 @@ output: number as a string
 function mxdiflg(a1, a2) {
     // your code
     //emergency push
+    //part two
 }
