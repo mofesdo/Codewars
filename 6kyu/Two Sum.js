@@ -10,6 +10,7 @@ twoSum([1, 2, 3], 4) // returns [0, 2] or [2, 0]
 twoSum([3, 2, 4], 6) // returns [1, 2] or [2, 1]
 */
 //emergency push
+//PART TWO
 function twoSum(numbers, target) {
     return [0, 1];
 }
