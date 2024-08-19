@@ -25,5 +25,6 @@ function warnTheSheep(queue) {
     }
     let count = 1;
     //still working on this kata
+    //ep after weekend
   
   }
