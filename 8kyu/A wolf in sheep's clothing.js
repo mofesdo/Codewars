@@ -28,5 +28,6 @@ function warnTheSheep(queue) {
     //ep after weekend
     //Kata done
     //last one for sure before i start my project
+    //bad week lmao okay searching up a yt project now
   
   }
