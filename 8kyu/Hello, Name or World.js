@@ -10,13 +10,13 @@ Examples:
   or `name` = ""        => return "Hello, World!"
   */
   function hello(name) {
-    if(name == ""){
+    if(name == "" || name == null){
       return "Hello, World!"
     }
     else{
         let str = name.toLowerCase();
-    console.log(str[0].toUpperCase());
-        console.log(str.slice(1));
-    return `Hello, ${str[0].toUpperCase()}${str.slice(1)}!`;
+      str = str[0].toUpperCase() + str.slice(1);
+      console.log(str)
+    return `Hello, ${str}!`;
     }
   }
