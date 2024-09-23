@@ -11,6 +11,7 @@ ball2.ballType     //=> "super"
 
 var Ball = function(ballType) {
   //regular is default value
+  //ep
     class Ball {
       constructor(ballType) {
         this.ballType = ballType || "regular";
