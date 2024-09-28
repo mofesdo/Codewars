@@ -21,4 +21,5 @@ Examples
 
 var isSquare = function(n){
     return false; // fix me
+    //emergency push
   }
