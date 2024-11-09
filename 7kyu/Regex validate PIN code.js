@@ -8,14 +8,6 @@ Examples (Input --> Output)
 "a234"   -->  false */
 
 function validatePIN (pin) {
-    //return true or false
-    let num = Number(pin);
-      console.log(pin);
-    console.log(pin.length)
-      console.log(num);
-    if(num === NaN || !num.isInteger || num < 0){
-      return false;
-    }
-    console.log(pin.length)
-    return pin.length == 4 || pin.length == 6;
+  let isNumber = /^\d+$/.test(pin) && (pin.length == 4 || pin.length == 6)
+  return isNumber;
   }
