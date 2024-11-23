@@ -7,5 +7,6 @@ For example
 Input sequence contains minimum two elements and every element is an integer.
 */
 function largestPairSum (numbers) {
-    //TODO: Write your Code here
-  }
+  numbers.sort((a,b) => a - b);
+  return numbers[numbers.length-1] + numbers[numbers.length-2];
+}
