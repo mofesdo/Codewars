@@ -17,10 +17,11 @@ However, the arrays can have varying lengths, not just limited to 4.
  */
 
 const binaryArrayToNumber = arr => {
-  // your code
   let num = 0;
+  let power = arr.length-1;
   arr.forEach((i) => {
-    console.log(i);
+    num = num + (i * (2 **power));
+    power--;
   });
-  return 0;
+  return num;
 };
