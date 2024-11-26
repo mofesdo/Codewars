@@ -17,6 +17,10 @@ However, the arrays can have varying lengths, not just limited to 4.
  */
 
 const binaryArrayToNumber = arr => {
-    // your code
-    return 0;
-  };
+  // your code
+  let num = 0;
+  arr.forEach((i) => {
+    console.log(i);
+  });
+  return 0;
+};
