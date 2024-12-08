@@ -13,5 +13,8 @@ Return false for invalid numbers too (e.g volume or side is less than or equal t
 Note: side will be an integer */
 
 function cubeChecker(volume, side){
-    return false;
+    if(side < 1){
+      return false;
+    }
+    return side**3 == volume ? true : false;
   };
