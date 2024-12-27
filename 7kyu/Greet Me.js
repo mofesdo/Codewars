@@ -4,6 +4,7 @@ Example:
 
 "riley" --> "Hello Riley!"
 "JACK"  --> "Hello Jack!" */
+//EP
 var greet = function(name) {
 
 };
