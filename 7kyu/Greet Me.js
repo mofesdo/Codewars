@@ -4,7 +4,7 @@ Example:
 
 "riley" --> "Hello Riley!"
 "JACK"  --> "Hello Jack!" */
-//EP
+//EP - hopefully home before 12
 var greet = function(name) {
 
 };
