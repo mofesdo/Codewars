@@ -5,6 +5,7 @@ Example:
 "riley" --> "Hello Riley!"
 "JACK"  --> "Hello Jack!" */
 //EP - hopefully home before 12
+//goodbye nito
 var greet = function(name) {
 
 };
