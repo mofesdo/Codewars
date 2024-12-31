@@ -4,9 +4,7 @@ Example:
 
 "riley" --> "Hello Riley!"
 "JACK"  --> "Hello Jack!" */
-//EP - hopefully home before 12
-//goodbye nito
-//charged embers hatch day
 var greet = function(name) {
-
-};
+    let lower = name.toLowerCase();
+    return `Hello ${lower[0].toUpperCase() + lower.substring(1)}!`
+  };
