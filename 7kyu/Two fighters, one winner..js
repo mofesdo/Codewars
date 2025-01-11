@@ -23,6 +23,28 @@ function Fighter(name, health, damagePerAttack) {
         this.toString = function() { return this.name; }
 } */
 
-function declareWinner(fighter1, fighter2, firstAttacker) {
-    return "Write your code here";
-}
+        function declareWinner(fighter1, fighter2, firstAttacker) {
+          let winner = "";
+          while(fighter1.health > 0 && fighter2.health > 0){
+            if(firstAttacker == fighter1){
+              fighter2.health = fighter2.health - fighter1.damagePerAttack;
+              if(fighter2.health <= 0){
+                return winner = fighter1.name;
+              }
+              fighter1.health = fighter1.health - fighter2.damagePerAttack;
+              if(fighter1.health <= 0){
+                return winner = fighter2.name;
+              }
+            }
+            else{
+              fighter1.health = fighter1.health - fighter2.damagePerAttack;
+              if(fighter1.health <= 0){
+                return winner = fighter2.name;
+              }
+              fighter2.health = fighter2.health - fighter1.damagePerAttack;
+              if(fighter2.health <= 0){
+                return winner = fighter1.name;
+              }
+            }
+          }
+        }
