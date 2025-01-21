@@ -16,7 +16,9 @@ remove("!!!Hi !!hi!!! !hi",100) === "Hi hi hi"
 */
 
 function remove(s,n){
-    //coding and coding....
-    
-    
+  //coding and coding....
+  for(let i = 0; i < n; i++){
+    s= s.replace("!", "");
   }
+  return s;
+}
