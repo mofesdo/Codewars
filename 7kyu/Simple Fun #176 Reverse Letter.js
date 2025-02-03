@@ -14,7 +14,11 @@ A string consists of lowercase latin letters, digits and symbols.
 
  */
 function reverseLetter(str) {
-    //coding and coding..
-    
-    
+  let res = "";
+  for(let i = str.length -1; i >= 0; i--){
+    if(/^[a-zA-Z]$/.test(str[i])){
+      res = res + str[i];
+    }
   }
+  return res;
+}
