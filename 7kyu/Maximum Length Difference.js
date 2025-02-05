@@ -15,9 +15,16 @@ output: number as a string
 */
 
 function mxdiflg(a1, a2) {
-    // your code
-    //emergency push
-    //part two
-    //part three lmao
-    //part four and last part
-}
+    if(a1.length === 0 || a2.length === 0){
+      return -1;
+    }
+    
+    let a3 = [];
+    let a4 = [];
+    a1.forEach((i) => a3.push(i.length));
+    a3 = a3.sort((a,b) => a-b);
+    a2.forEach((i) => a4.push(i.length));
+    a4 = a4.sort((a,b) => a-b);
+  
+    return Math.abs(a3[0] - a4[a4.length-1]) > Math.abs(a3[a3.length-1] - a4[0]) ? Math.abs(a3[0] - a4[a4.length-1]) : Math.abs(a3[a3.length-1] - a4[0]); 
+  }
