@@ -13,5 +13,9 @@ Examples
 */
 // write the function isAnagram
 var isAnagram = function(test, original) {
+    let s1 = test.toLowerCase().split('').sort().join('');
+    let s2 = original.toLowerCase().split('').sort().join('');
+    
+    return s1 === s2;
+  };
   
-};
